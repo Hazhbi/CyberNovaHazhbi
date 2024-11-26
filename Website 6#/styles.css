@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1affd1;
+}
+
+header .logo {
+    color: #1affd1;
+    font-size: 24px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ff1aff;
+}
+
+#three-canvas-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.cyber-section {
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.neon {
+    color: #ff1aff;
+    text-shadow: 0 0 10px #ff1aff, 0 0 20px #ff1aff, 0 0 30px #ff0080;
+}
+
+.cyber-button {
+    background: #1affd1;
+    color: #000;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.cyber-button:hover {
+    background: #ff1aff;
+    color: #fff;
+    transform: scale(1.1);
+}
